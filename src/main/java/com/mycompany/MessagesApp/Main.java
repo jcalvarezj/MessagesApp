@@ -7,7 +7,6 @@ package com.mycompany.MessagesApp;
 
 import com.mycompany.MessagesApp.dao.DatabaseConnection;
 import com.mycompany.MessagesApp.service.MessageService;
-import java.sql.Connection;
 import java.util.Scanner;
 
 /**

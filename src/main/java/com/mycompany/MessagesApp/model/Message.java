@@ -57,5 +57,10 @@ public class Message {
     public void setDate(Timestamp date) {
         this.date = date;
     }
+
+    @Override
+    public String toString() {
+        return "Message {\n" + "\tid=" + id + ",\n\tcontents=" + contents + ",\n\tauthor=" + author + ",\n\tdate=" + date + "\n}";
+    }
     
 }
